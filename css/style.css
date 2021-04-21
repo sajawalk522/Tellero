@@ -545,8 +545,8 @@ p {
   background-color: #ffffff;
   width: 16%;
   position: absolute;
-  top: -1px;
-  left: 4px;
+  top: 0px;
+  left: 0px;
 }
 .content-container .header {
   width: 100%;
@@ -812,6 +812,12 @@ p {
   .custom-width > div:nth-child(1) {
     width: 100%;
     padding-top: 117px;
+  }
+  .content-container .header{
+    margin: 0!important;
+    padding: 20px 13px!important;
+    display: flex;
+    flex-wrap: nowrap;
   }
   .right-sidebar .portfolio-image .finish {
     left: 40%;
