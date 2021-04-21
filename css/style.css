@@ -13,7 +13,7 @@ body {
 }
 
 .btn-custom {
-  padding: 6px 18px;
+  padding: 8px 18px;
   border-radius: 5px;
   background-image: linear-gradient(to right, #01e6ff, #0077ff);
   color: #fff !important;
@@ -337,6 +337,9 @@ p {
 .scale ul li:first-child {
   margin-right: 16px;
 }
+.foot-container{
+  margin-bottom: 3rem;
+}
 /* income and expense */
 
 /* left sidebar css  */
@@ -354,14 +357,17 @@ p {
   border: solid 1px #ffffff;
 }
 .left-sidebar .logo > div p {
-  font-size: 28px;
+  font-size: 36px;
   color: #021668;
   font-weight: 700;
   line-height: 0.5;
   padding-left: 5px;
 }
+.left-sidebar .logo > div img{
+  width: 32px;
+}
 .left-sidebar .tbl-container {
-  padding: 15px 10px;
+  padding: 15px 20px;
   box-shadow: 0 3px 10px 0 rgba(33, 108, 252, 0.16);
   border: solid 1px #ffffff;
 }
@@ -385,6 +391,7 @@ p {
 .left-sidebar .left-nav {
   margin-top: 30px;
   margin-bottom: 100px;
+  padding-left: 15px;
 }
 .left-sidebar .left-nav ul li a {
   font-family: Poppins;
@@ -466,7 +473,7 @@ p {
   padding: 20px 20px 40px 20px;
   box-shadow: 0 3px 20px 0 rgba(33, 108, 252, 0.16);
   background-color: #ffffff;
-  height: 220px;
+  height: 230px;
   margin-top: 25px;
 }
 .right-sidebar .box-image {
@@ -507,16 +514,17 @@ p {
   color: #11193c;
   padding-bottom: 6px;
   padding-left: 8px;
+  opacity: 0.9;
 }
 .right-sidebar .box-container .help p a {
   text-decoration: none;
   color: #0078ff;
 }
 .company-logo {
-  margin-top: -36px;
+  margin-top: -55px;
 }
 .company-logo > div {
-  padding: 25px 15px 15px 15px;
+  padding: 25px 15px 20px 15px;
   background-color: #eaf0fb;
 }
 .company-logo a {
@@ -524,7 +532,7 @@ p {
   padding: 15px;
   width: 200px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   line-height: 1.06;
   color: #007bff;
@@ -669,6 +677,14 @@ p {
 .table-striped > tbody > tr:nth-of-type(odd) {
   --bs-table-accent-bg: rgba(1, 231, 255, 0.03) !important;
 }
+.show-more a{
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 2.27;
+  text-align: center;
+  color: #0077ff;
+}
 /* invoice end */
 
 /* pop up*/
@@ -746,11 +762,14 @@ p {
   padding-left: 15px;
 }
 .mobile-sidebar .logo {
-  width: 100%;
+  width: 80%;
 }
 .mobile-header .logo {
   padding: 30px 20px;
   margin-bottom: 0;
+}
+.mobile-header .left-sidebar .logo > div p{
+  font-size: 28px!important;
 }
 .mobile-tbl {
   width: 40%;
@@ -814,6 +833,9 @@ p {
     width: 100%;
     padding-top: 117px;
   }
+  .foot-container{
+    margin-bottom: 0!important;
+  }
   .content-container .header{
     margin: 0!important;
     padding: 20px 13px!important;
@@ -831,7 +853,7 @@ p {
     font-size: 10px;
   }
   .btn-custom {
-    padding: 6px 10px;
+    padding: 8px 10px;
   }
 
   .mid-container > div {
