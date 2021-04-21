@@ -731,7 +731,7 @@ p {
 .mobile-sidebar {
   padding: 20px;
   width: 80%;
-  height: 100%;
+  height: fit-content;
   background-color: #fff;
 }
 .mobile-sidebar .leftside-bottom {
