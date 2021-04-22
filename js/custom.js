@@ -16,20 +16,27 @@ closeLink.addEventListener("click", closeLinks);
 function showDownSlide() {
     downContent.style.height = "100%";
 }
+
 function closeDownSlide() {
     downContent.style.height = "0";
 }
 
-function showLinks(){
+function showLinks() {
     navLinks.style.width = "100%";
 }
-function closeLinks(){
+
+function closeLinks() {
     navLinks.style.width = "0";
 }
 
- function openNav() {
+function openNav() {
     slide.style.width = "100%";
- }
- function closeNav() {
-     slide.style.width = "0";
- }
+}
+
+function closeNav() {
+    slide.style.width = "0";
+}
+
+function toggleDropdown() {
+    document.getElementById("myDropdown").classList.toggle("showtoggle");
+}
