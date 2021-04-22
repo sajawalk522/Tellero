@@ -867,7 +867,7 @@ p {
     background-color: #ffffff;
     border: 1px solid #fff;
     padding: 4px 4px 15px 4px;
-    width: 60%;
+    width: 65%;
     transition: 0.5s;
     position: absolute;
     margin-top: 15px;
@@ -930,14 +930,14 @@ p {
 }
 
 .setting-popup .inner-setting h5 {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.5;
     color: #11193c;
 }
 
 .setting-popup .inner-setting .nav-item .nav-link {
     padding: 10px 20px;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.53;
     color: #11193c;
     opacity: 0.8;
