@@ -455,7 +455,6 @@ p {
     padding: 15px 20px;
     box-shadow: 0 3px 10px 0 rgba(33, 108, 252, 0.16);
     border: solid 1px #ffffff;
-    position: relative;
 }
 
 .left-sidebar .tbl-container .tlb {
@@ -882,8 +881,8 @@ p {
     left: 0px;
     padding: 15px 20px;
     position: absolute;
-    top: 56px;
-    left: 15px;
+    top: 39%;
+    left: 30px;
 }
 
 .setting-dropdown .top-container {
