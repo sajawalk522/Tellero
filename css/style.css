@@ -852,7 +852,6 @@ p {
 }
 
 .popup-down {
-    background-color: rgba(0, 0, 0, 0.41);
     width: 100%;
     position: fixed;
     height: 0;
@@ -866,9 +865,12 @@ p {
 .setting-popup {
     box-shadow: 0 0 20px 0 rgb(33 108 252 / 16%);
     background-color: #ffffff;
-    padding: 4px 4px 10px 4px;
+    border: 1px solid #fff;
+    padding: 4px 4px 15px 4px;
     width: 78%;
-    margin: 94px auto;
+    position: absolute;
+    right: 22px;
+    top: 109px;
 }
 
 .dropdown-icon img {
@@ -912,8 +914,8 @@ p {
 
 .close-icon {
     position: absolute;
-    right: 22px;
-    top: 33px;
+    width: 100%;
+    height: 100%;
 }
 
 .setting-popup .top-container {
