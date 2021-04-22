@@ -952,13 +952,14 @@ p {
 
 .mobile-sidebar {
     padding: 20px;
-    width: 80%;
+    width: 85%;
     height: fit-content;
     background-color: #fff;
 }
 
 .mobile-sidebar .tbl-container {
     width: 80%;
+    margin-top: 20px;
 }
 
 .mobile-sidebar .leftside-bottom {
@@ -1025,7 +1026,7 @@ p {
     position: absolute;
     background-color: #fff;
     top: 27px;
-    right: 24px;
+    right: 10px;
     font-size: 36px;
 }
 
