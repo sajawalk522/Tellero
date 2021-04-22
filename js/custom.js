@@ -40,3 +40,7 @@ function closeNav() {
 function toggleDropdown() {
     document.getElementById("myDropdown").classList.toggle("showtoggle");
 }
+
+function toggleDropdownNav() {
+    document.getElementById("myIdDropdown").classList.toggle("showtoggle");
+}

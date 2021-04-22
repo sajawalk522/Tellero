@@ -867,10 +867,10 @@ p {
     background-color: #ffffff;
     border: 1px solid #fff;
     padding: 4px 4px 15px 4px;
-    width: 78%;
+    width: 60%;
+    transition: 0.5s;
     position: absolute;
-    right: 22px;
-    top: 109px;
+    margin-top: 15px;
 }
 
 .dropdown-icon img {
@@ -955,6 +955,10 @@ p {
     width: 80%;
     height: fit-content;
     background-color: #fff;
+}
+
+.mobile-sidebar .tbl-container {
+    width: 80%;
 }
 
 .mobile-sidebar .leftside-bottom {
