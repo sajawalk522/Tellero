@@ -27,8 +27,10 @@ function closeNav() {
 
 function toggleDropdown() {
     document.getElementById("myDropdown").classList.toggle("showtoggle");
+    document.getElementById("rotate-image").classList.toggle("rotate-now")
 }
 
 function toggleDropdownNav() {
     document.getElementById("myIdDropdown").classList.toggle("showtoggle");
+    document.getElementById("rotate-image-m").classList.toggle("rotate-now")
 }
